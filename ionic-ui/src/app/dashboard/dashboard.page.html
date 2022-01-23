@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-button>
+        <ion-icon name="menu"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Dashboard</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-card>
+  <ion-item>
+    <ion-icon name="thermometer"></ion-icon>
+    <ion-badge item-start>{{ temperature }}&#176;C</ion-badge>
+    <ion-icon name="compass-outline"></ion-icon>
+    <ion-badge item-end>180&#176; </ion-badge>
+  </ion-item>
+</ion-card>

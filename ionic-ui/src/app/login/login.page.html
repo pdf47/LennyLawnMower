@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Lenny Lawn Mower</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <ion-item lines="full">
+      <ion-label position="floating">Email</ion-label>
+      <ion-input
+        formControlName="emailAddress"
+        type="text"
+        required
+      ></ion-input>
+      <div *ngIf="submitted && f.emailAddress.errors" class="invalid">
+        <div *ngIf="f.emailAddress.errors.required">
+          Email Address is required
+        </div>
+        <div *ngIf="f.emailAddress.errors && !f.emailAddress.errors.required">
+          Invalid Email Address
+        </div>
+      </div>
+    </ion-item>
+
+    <ion-item lines="full">
+      <ion-label position="floating">Password</ion-label>
+      <ion-input
+        formControlName="password"
+        type="password"
+        required
+      ></ion-input>
+      <div *ngIf="submitted && f.password.errors" class="invalid">
+        <div *ngIf="f.password.errors.required">Password is required</div>
+      </div>
+    </ion-item>
+
+    <ion-row>
+      <ion-col>
+        <ion-button size="small" type="submit">Sign In</ion-button>
+      </ion-col>
+    </ion-row>
+  </form>
+</ion-content>
