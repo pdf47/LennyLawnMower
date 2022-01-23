@@ -22,10 +22,10 @@ export class DashboardPage implements OnInit {
   ngOnInit() {}
 
   getData() {
-    const url = "https://jsonplaceholder.typicode.com/photos?albumId=1";
+    const url = "http://127.0.0.1:5000/bme280";
     this.http.get(url).subscribe((res) => {
       this.data = res;
-      console.log(this.data[0].albumId);
+      this.temperature = this.data[0].temperature;
     });
   }
 }

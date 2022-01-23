@@ -28,7 +28,7 @@ With the SD Card inserted edit the following files to set hostname and WIFI conn
 /etc/wpa_supplicant/wpa_supplicant.conf
 
 DDNS setup using [no-ip](https://www.noip.com/)
-Follow the install instructions on [this page](https://www.noip.com/download?page=linux)
+Follow the install instructions on [this page](https://www.noip.com/support/knowledgebase/installing-the-linux-dynamic-update-client-on-ubuntu/)
 
 Install Pil Lighthttpd following the instructions on [this page](https://pimylifeup.com/raspberry-pi-lighttpd/)
 
