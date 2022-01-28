@@ -6,11 +6,15 @@
 
 - [2 x DC Motor - 12V 100RPM with Hub & Bracket](https://tinyurl.com/bdnzzzed)
 
-- [4 x VL53L1X Time of Flight (ToF) Sensor](https://thepihut.com/products/vl53l1x-time-of-flight-tof-sensor-breakout)
+- [Camera](https://tinyurl.com/2s3mbwwj)
+
+- [Camera Ribbon](https://tinyurl.com/tt5sc6a9)
+
+- [4 x VL53L1X Time of Flight (ToF) Sensor](https://tinyurl.com/2jvawywv)
 
 - [Tilt Compensated Magnetic Compass CMPS12](https://tinyurl.com/jz88j5ah)
 
-- [PA1010D GPS Breakout](https://tinyurl.com/ej53j775)
+- [PA1010D GPS Breakout](https://tinyurl.com/8jabzby7)
 
 - [BME280 Temp/Press/Humid Sensor](https://tinyurl.com/ys6bf4w7)
 

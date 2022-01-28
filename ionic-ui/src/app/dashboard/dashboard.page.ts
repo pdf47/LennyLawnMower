@@ -9,23 +9,23 @@ import { HttpClient } from "@angular/common/http";
 })
 export class DashboardPage implements OnInit {
   private data: any = [];
-  temperature: number;
+  temperature: string;
 
   constructor(
     private authService: AuthenticationService,
     private http: HttpClient
   ) {
     this.getData();
-    this.temperature = 18;
   }
 
   ngOnInit() {}
 
   getData() {
-    const url = "http://127.0.0.1:5000/bme280";
+    const url = "http://lennylawnmower.ddns.net:5000/bme280";
     this.http.get(url).subscribe((res) => {
+      console.log("pdf:" + this.data);
       this.data = res;
-      this.temperature = this.data[0].temperature;
+      this.temperature = this.data.temperature;
     });
   }
 }

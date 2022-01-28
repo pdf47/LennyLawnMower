@@ -77,7 +77,6 @@ let AppComponent = class AppComponent {
         this.router = router;
         this.platform = platform;
         this.authenticationService = authenticationService;
-        this.data = [];
         this.initializeApp();
     }
     initializeApp() {

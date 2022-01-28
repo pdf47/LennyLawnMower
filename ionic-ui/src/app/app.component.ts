@@ -11,8 +11,6 @@ import { getLocaleDateFormat } from "@angular/common";
   styleUrls: ["./app.component.scss"],
 })
 export class AppComponent {
-  private data: any = [];
-
   constructor(
     private router: Router,
     private platform: Platform,
