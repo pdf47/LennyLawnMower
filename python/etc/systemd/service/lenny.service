@@ -1,0 +1,11 @@
+[Unit]
+Description=Lenny Lawn Mower
+
+[Service]
+User=pi
+Type=simple
+ExecStart=/home/pi/flask.sh
+TimeoutSec=30
+
+[Install]
+WantedBy=multi-user.target
