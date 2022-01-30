@@ -62,3 +62,13 @@ restart the service
     service lighttpd restart
 
 sudo apt install python3-flask
+
+copy lenny.service to /etc/systemd/service
+
+systemctl daemon-reload
+systemctl start lenny
+
+Enable camera module
+
+    sudo raspi-config
+    then select interfacing Options --> Camera
