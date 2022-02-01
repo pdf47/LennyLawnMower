@@ -8,9 +8,9 @@
 
 - [Camera](https://tinyurl.com/2s3mbwwj)
 
-- [Camera Ribbon](https://tinyurl.com/tt5sc6a9)
+- [Pi Zero Camera Adapter](https://tinyurl.com/2p9bpnts)
 
-- [4 x VL53L1X Time of Flight (ToF) Sensor](https://tinyurl.com/2jvawywv)
+- [VL53L1X Time of Flight (ToF) Sensor](https://tinyurl.com/2jvawywv)
 
 - [Tilt Compensated Magnetic Compass CMPS12](https://tinyurl.com/jz88j5ah)
 
