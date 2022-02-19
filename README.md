@@ -72,3 +72,9 @@ Enable camera module
 
     sudo raspi-config
     then select interfacing Options --> Camera
+
+sudo apt install ffmpeg -y
+sudo mkdir -p /dev/shm/streaming/
+ln -s /dev/shm/streaming /var/www/html/streaming
+
+ffmpeg -f v4l2 -framerate 10 -video_size 320x240 -i /dev/video0 -f mpegts -codec:v mpeg1video -s 320x240 -b:v 1000k -bf 0 http://localhost:8081/<pwd>

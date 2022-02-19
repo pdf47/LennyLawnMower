@@ -1,10 +1,10 @@
 [Unit]
-Description=Lenny Lawn Mower
+Description=Lawn Cam
 
 [Service]
 User=pi
 Type=simple
-ExecStart=/home/pi/flask.sh
+ExecStart=/home/pi/lawncam.sh
 TimeoutSec=30
 Restart=on-failure
 RestartSec=5s

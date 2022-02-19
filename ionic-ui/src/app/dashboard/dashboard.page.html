@@ -9,6 +9,15 @@
   </ion-toolbar>
 </ion-header>
 
+<script src="jsmpeg.min.js"></script>
+<canvas id="video-canvas"></canvas>
+<script type="text/javascript" src="jsmpeg.min.js"></script>
+<script type="text/javascript">
+  var canvas = document.getElementById("video-canvas");
+  var url = "ws://" + document.location.hostname + ":8082/";
+  var player = new JSMpeg.Player(url, { canvas: canvas });
+</script>
+
 <ion-card>
   <ion-item>
     <ion-icon name="thermometer"></ion-icon>
